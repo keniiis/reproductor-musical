@@ -124,3 +124,30 @@ body{
 .playpause-track ion-icon {
     font-size: 20px;
 }
+
+@media (max-width: 900px) { 
+    .music-player-container {
+        width: 400px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .track-name {
+        font-size: 0.8rem;
+    }
+
+    .track-artist {
+        letter-spacing: 0;
+        font-size: 0.7rem;
+    }
+
+    .playpause-track,
+    .prev-track,
+    .next-track {
+        padding: 2.5px 7.5px;
+    }
+
+    .sound-bars {
+        margin: 0 10px;
+    }
+}
